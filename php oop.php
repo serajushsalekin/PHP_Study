@@ -57,10 +57,10 @@ foreach ($methods as $method) {
  		$ins->option();
 
  	}
- 	/*function __destruct()
+ 	function __destruct()
  	{
  		echo "CLOSED PROGRAM.";
- 	}*/
+ 	}
  }
 
  $user = new log();
@@ -84,6 +84,6 @@ $ex = new car();
 $ex->print_fun();
 $ex->ex_fun();
 
-var_dump($ex->var2); 
+//var_dump($ex->var2); 
 
   ?>
